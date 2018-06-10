@@ -1,23 +1,10 @@
 class Person
 
-  def initialize
+  def initialize(name)
     @name = name
-    @job = job
   end
 
   def name=(name)
     @name = name
-  end
-
-  def name
-    "#{@name}".strip
-  end
-
-  def job=(job)
-    @job = job
-  end
-
-  def job
-    "#{@job}".strip
   end
 end
